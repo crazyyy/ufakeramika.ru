@@ -13155,7 +13155,7 @@ BX.PopupMenuWindow.prototype.__createPopup = function()
 		autoHide : typeof(this.params.autoHide) != "undefined" ? this.params.autoHide : true,
 		offsetTop : this.params.offsetTop ? this.params.offsetTop : 1,
 		offsetLeft : this.params.offsetLeft ? this.params.offsetLeft : 0,
-		
+
 		noAllPaddings : true,
 
 		content : BX.create("div", { props : { className : "menu-popup" }, children: [
@@ -14095,29 +14095,29 @@ function CBXSession()
 	this.dateCheck = new Date();
 	this.activityInterval = 0;
 	this.notifier = null;
-	
+
 	this.Expand = function(timeout, sessid, bShowMess, key)
 	{
 		this.timeout = timeout;
 		this.sessid = sessid;
 		this.bShowMess = bShowMess;
 		this.key = key;
-		
+
 		BX.ready(function(){
 			BX.bind(document, "keypress", _this.OnUserInput);
 			BX.bind(document.body, "mousemove", _this.OnUserInput);
 			BX.bind(document.body, "click", _this.OnUserInput);
-			
+
 			setTimeout(_this.CheckSession, (_this.timeout-60)*1000);
 		})
 	};
-		
+
 	this.OnUserInput = function()
 	{
 		var curr = new Date();
 		_this.dateInput.setTime(curr.valueOf());
 	};
-	
+
 	this.CheckSession = function()
 	{
 		var curr = new Date();
@@ -14144,7 +14144,7 @@ function CBXSession()
 		}
 		BX.ajax(config);
 	};
-	
+
 	this.CheckResult = function(data)
 	{
 		if(data == 'SESSION_EXPIRED')
@@ -14209,7 +14209,7 @@ function CBXSession()
 			setTimeout(_this.CheckSession, timeout*1000);
 		}
 	};
-	
+
 	this.Close = function()
 	{
 		this.notifier.style.display = 'none';
