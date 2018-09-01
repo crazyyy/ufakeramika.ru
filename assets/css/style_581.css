@@ -1,0 +1,38 @@
+/* Left menu*/
+ul.left-menu {
+  position: relative;
+  /*IE bug*/
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  list-style: none;
+}
+
+ul.left-menu li {
+  padding: 10px 16px;
+  background: #F5F5F5 url(images/left_menu_bg.gif) top repeat-x;
+}
+
+ul.left-menu li a {
+  text-decoration: none;
+  color: #BC262C;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+ul.left-menu li a:visited {
+  color: #BC262C;
+}
+
+ul.left-menu li a:hover {
+  color: #BC262C;
+}
+
+ul.left-menu li a.selected:link,
+ul.left-menu li a.selected:visited,
+ul.left-menu li a.selected:active,
+ul.left-menu li a.selected:hover {
+  color: #FC8D3D;
+}
+
+/*# sourceMappingURL=maps/style_581.css.map */
