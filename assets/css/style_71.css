@@ -10,8 +10,8 @@
 }
 
 .bx_catalog_line .bx_catalog_line_category_title a {
-  color: #000;
   text-decoration: none;
+  color: #000;
 }
 
 .bx_catalog_line .bx_catalog_line_ul {
@@ -32,13 +32,13 @@
   display: block;
   float: left;
   overflow: hidden;
-  margin-right: 40px;
   width: 125px;
   height: 125px;
+  margin-right: 40px;
   border: 1px solid #ccc;
   border-radius: 2px;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   -webkit-background-size: contain;
   background-size: contain;
 }
@@ -71,9 +71,9 @@
 
 @media (max-width: 639px) {
   .bx-touch .bx_catalog_line .bx_catalog_line_img {
-    margin-right: 10px;
     width: 50px;
     height: 50px;
+    margin-right: 10px;
   }
   .bx-touch .bx_catalog_line .bx_catalog_line_title {
     margin-bottom: 5px;
@@ -110,8 +110,8 @@
 }
 
 .bx_catalog_text .bx_catalog_text_category_title a {
-  color: #000;
   text-decoration: none;
+  color: #000;
 }
 
 .bx_catalog_text .bx_catalog_text_ul {
@@ -136,8 +136,8 @@
 }
 
 .bx_catalog_text .bx_catalog_text_title a {
-  color: #4c7da6;
   white-space: nowrap;
+  color: #4c7da6;
   font-size: 14px;
 }
 
@@ -180,8 +180,8 @@
 }
 
 .bx_catalog_tile .bx_catalog_tile_category_title a {
-  color: #000;
   text-decoration: none;
+  color: #000;
 }
 
 .bx_catalog_tile .bx_catalog_tile_ul {
@@ -193,9 +193,9 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 12.5%;
   margin-bottom: 20px;
   padding: 0 10px;
-  width: 12.5%;
   list-style: none;
   text-align: center;
 }
@@ -212,14 +212,14 @@
   position: relative;
   display: block;
   overflow: hidden;
-  margin: 0 auto;
   width: 78px;
   height: 78px;
+  margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 2px;
   background-color: #fff;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   -webkit-background-size: contain;
   background-size: contain;
 }
@@ -321,8 +321,8 @@
 }
 
 .bx_sitemap .bx_sitemap_title a {
-  color: #000;
   text-decoration: none;
+  color: #000;
 }
 
 .bx_sitemap .bx_sitemap_ul li {
@@ -337,16 +337,16 @@
 .bx_sitemap .bx_sitemap_li_title {
   display: inline-block;
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   vertical-align: top;
   font-weight: normal;
   line-height: 13px;
-  margin-bottom: 10px;
 }
 
 .bx_sitemap .bx_sitemap_li_title a {
-  color: #4c7da6;
   white-space: nowrap;
+  color: #4c7da6;
   font-size: 13px;
 }
 
@@ -370,10 +370,6 @@
 
 .bx_sitemap .bx_catalog_line_title,
 .bx_sitemap .bx_catalog_line_title a {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 

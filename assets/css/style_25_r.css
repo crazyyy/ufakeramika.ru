@@ -1,0 +1,149 @@
+div.title-search-result {
+  z-index: 205;
+  display: none;
+  overflow: hidden;
+  border: 1px solid #c6c6c6;
+}
+
+table.title-search-result {
+  width: 10%;
+  border: none;
+  border-collapse: collapse;
+}
+
+table.title-search-result th {
+  width: 1%;
+  padding-top: 2px;
+  padding-right: 12px;
+  padding-bottom: 2px;
+  padding-left: 14px;
+  vertical-align: top;
+  white-space: nowrap;
+  color: #949494;
+  border-right: 1px solid #e8e8e8;
+  background-color: #F7F7F7;
+  font-weight: normal;
+}
+
+table.title-search-result td {
+  padding: 5px;
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: white;
+  font-weight: normal;
+}
+
+table.title-search-result td.title-search-item a {
+  display: block;
+}
+
+table.title-search-result td.title-search-item img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  vertical-align: top;
+}
+
+table.title-search-result td.title-search-item b {
+  color: #cf0000;
+  font-weight: normal;
+}
+
+table.title-search-result tr.title-search-selected td,
+table.title-search-result tr.title-search-selected a,
+table.title-search-result tr.title-search-selected td.title-search-more a {
+  background-color: #eeeeee;
+}
+
+table.title-search-result td.title-search-more {
+  padding: 0 15px;
+  text-align: right;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+table.title-search-result td.title-search-more a {
+  text-decoration: none;
+  color: #999999;
+}
+
+table.title-search-result td.title-search-all {
+  padding-right: 15px;
+  padding-left: 24px;
+}
+
+table.title-search-result td.title-search-all a {
+  padding-left: 4px;
+  text-decoration: none;
+  color: #808080;
+}
+
+table.title-search-result td.title-search-separator,
+table.title-search-result th.title-search-separator {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+div.title-search-fader {
+  position: absolute;
+  display: none;
+  background-image: url("../img/fader.png");
+  background-repeat: repeat-y;
+  background-position: right top;
+}
+
+p.title-search-preview {
+  font-size: 12px;
+}
+
+div.title-search-result td.title-search-price span {
+  font-size: 26px;
+}
+
+#search-left-form {
+  position: relative;
+  height: 38px;
+}
+
+#search-left-form .fa-search {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  padding: 11px 8px;
+  cursor: pointer;
+  background: #FFF;
+}
+
+#title-search-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 38px;
+  padding: 0 4px;
+  color: #555;
+  border: 1px solid #a6a8ab;
+  font-size: 14px;
+}
+
+#title-search-input:focus {
+  border-color: #16a5b6;
+  outline: 0;
+}
+
+.title-search-item-container {
+  width: 100%;
+}
+
+.title-search-item-image-link {
+  position: relative;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=maps/style_25_r.css.map */

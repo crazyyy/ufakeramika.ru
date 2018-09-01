@@ -10,7 +10,7 @@ ul.left-menu {
 
 ul.left-menu li {
   padding: 10px 16px;
-  background: #F5F5F5 url(images/left_menu_bg.gif) top repeat-x;
+  background: #F5F5F5 url(../img/left_menu_bg.gif) top repeat-x;
 }
 
 ul.left-menu li a {

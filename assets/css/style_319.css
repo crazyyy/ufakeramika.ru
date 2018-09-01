@@ -12,11 +12,11 @@ div.news-list img.preview_picture {
 }
 
 .news_link_list {
-  width: 150px;
-  height: 150px;
   position: relative;
   display: block;
   float: left;
+  width: 150px;
+  height: 150px;
   border: 1px solid #323031;
 }
 

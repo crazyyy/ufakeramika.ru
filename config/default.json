@@ -1,6 +1,6 @@
 {
-  "domain": "wp-framework.dev",
-  "theme": "wp-framework",
+  "domain": "ufakeramika.local",
+  "theme": "wp-ufakeramika",
   "path": {
     "base": {
       "src":"assets/",
